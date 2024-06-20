@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto; /* 將網站置中 */
+    max-width: 800px; /* 控制最大寬度 */
+}
+
+h2 {
+    text-align: center; /* 將標題置中 */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold; /* 加粗字體 */
+    line-height: 2.0; /* 調整行距 */
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.result {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+p {
+    line-height: 2.0; /* 調整段落行距 */
+}
